@@ -28,8 +28,8 @@ class FocusFinderApp:
 
     def open_settings(self):
         settings_window = SettingsWindow(self)
-        settings_window.grab_set()  # Make the child window modal
-        settings_window.wait_window()  # Wait for the child window to close
+        settings_window.grab_set()  
+        settings_window.wait_window()  
 
 
 class SettingsWindow(tk.Toplevel):
@@ -70,8 +70,8 @@ class FocusFinderApp:
 
     def open_settings(self):
         settings_window = SettingsWindow(self)
-        settings_window.grab_set()  # Make the child window modal
-        settings_window.wait_window()  # Wait for the child window to close
+        settings_window.grab_set()  
+        settings_window.wait_window()  
 
 
 
